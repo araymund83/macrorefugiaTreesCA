@@ -4,7 +4,7 @@ Velocity-based microrefugia metrics for 25 North American tree species were deve
 Each species distribution projection was reclassified using the threshold suggested by Zhao et al. (2023).
 Backward biotic velocity (Carroll et al., 2015) for each species was calculated using the nearest-analog velocity algorithm defined by Hamann et al. 2015 and applied to binary presence/absence rasters representing current and projected future distributions. Presence thresholds were based on mean probability of occurrence in the baseline period. To convert biotic velocity into an index of microrefugia ranging from 0 to 1, a distance-decay function was applied to the backward velocity distance valuer at each pixel, i.e., the shortest distance from a projected future location to the current distribution. The distance-decay function was based on a fat-tailed distribution (c= 0.5, and alpha = 8333.33) parameterized to result in a mean migration rate of 500 m/year or 50 km/century (details in Stralberg et al. 2018). Refugia index values were calculated separately for each GCM and then averaged to produce an overall index.
 
-Code (updated from Stralberg et al. 2018 is available: 
+Code (updated from Stralberg et al. 2018 is available: DOI: 10.5281/zenodo.14662106
 
 Macrorefugia indices are provided as GeoTIFFs with a 1-km resolution, with map images provided in png format. 
 
